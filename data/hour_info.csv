@@ -1,4 +1,4 @@
-column2,hour,status_x,click_count,status_y,buy_count,ratio,Hour In words
+,hour,status_x,click_count,status_y,buy_count,ratio,Hour In words
 0,0,0,43973,1,1133,0.025765811,One
 1,1,0,30322,1,726,0.023943012,Two
 2,2,0,30889,1,693,0.022435171,Three
