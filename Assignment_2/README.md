@@ -16,3 +16,12 @@ About Dataset :
 - The data was collected during 6 months in the year of 2014, reflecting the clicks and purchases performed by the users of an on-line retailer in Europe.  
 - To protect end users privacy, as well as the retailer,
 - All numbers have been modified for privacy reasons. 
+
+
+Folder Information: -
+1. Einstein-Analytics - Contains dashboard of our analysis
+2. Pandas - Contains .ipynb files along with pandas visualizations 
+3. Snowflake - Contains screenshots of data staging and connection with einstein analytics
+4. Trifacta	- Contains data, reports, screenshots and json metadata files.
+5. data - Contains all the data files on which we generated dashboards.
+6. xsv - Contains screenshots of the commands performed on xsv command line toolkit.
