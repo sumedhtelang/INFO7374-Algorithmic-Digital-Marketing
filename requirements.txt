@@ -155,9 +155,6 @@ spacy==2.3.1
 srsly==1.0.2
 starlette==0.13.2
 streamlit==0.62.1
-tensorboard==2.2.2
-tensorboard-plugin-wit==1.6.0.post3
-tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 tensorflow-hub==0.8.0
 termcolor==1.1.0
@@ -168,7 +165,6 @@ threadpoolctl==2.1.0
 tifffile==2020.6.3
 toml==0.10.1
 toolz==0.10.0
-torch==1.5.1
 torchvision==0.6.1
 tornado==5.1.1
 tqdm==4.46.1
@@ -190,6 +186,5 @@ websocket-client==0.57.0
 websockets==8.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
-wordcloud==1.7.0
 wrapt==1.12.1
 zipp==3.1.0
