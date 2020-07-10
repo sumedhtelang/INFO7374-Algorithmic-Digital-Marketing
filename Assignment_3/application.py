@@ -4,7 +4,7 @@ import pandas as pd
 
 add_selectbox = st.sidebar.radio(
     "Select the type of SEARCH METHOD",
-    ("Similarity", "FAISS", "Spotify-Annoy")
+    ("Similarity", "FAISS")
 )
 # st.title('My first app')
 
