@@ -6,8 +6,8 @@ from PIL import Image
 import json,requests
 
 st.sidebar.markdown('**_RECOMMENDATION SYSTEM :SNACKFAIR_**')
-itemName = pd.read_csv('ml-latest-small/itemInfo.csv')
-userName = pd.read_csv('ml-latest-small/userData.csv')
+itemName = pd.read_csv('data/itemInfo.csv')
+userName = pd.read_csv('data/userData.csv')
 
 radio = st.sidebar.radio(
     "Select an Algorithm from below List to see the Recommendations!",
@@ -24,18 +24,19 @@ if radio == 'LightFM Algorithm':
         "Choose the Recommendation Method among the LightFM Algorithm :",
         ('No Selection','Similarity on the Basis of USER ID', 'Similarity on the Basis of ITEM ID'))
     
-    
     if genre == 'No Selection':
+        
         st.title('**_SNACKFAIR Welcomes you to their own Recommendation System!_**')
         image = Image.open('snacks.jpg')
         st.image(image, caption='',use_column_width=True)
     
     
+    
     elif genre == 'Similarity on the Basis of USER ID':
         st.title('_Recommendation on the basis of User ID_')
-        sentence = st.text_input('Enter the USER ID to get Similar User IDs of it:',value='0')
+        sentence = st.text_input('Enter the USER ID to get Similar User Details of it:',value='0')
         number = int(sentence)    
-        if st.button('Recommend the closest User IDs'):
+        if st.button('Recommend the closest User Details'):
             payload = json.dumps({
                 "userID" : number
                 })
@@ -54,11 +55,11 @@ if radio == 'LightFM Algorithm':
     elif genre == 'Similarity on the Basis of ITEM ID':
         
         st.title('_Recommendation on the basis of Item ID_')
-        sentence = st.text_input('Enter the ITEM ID to get Similar ITEM IDs or USER IDs on the basis of it:',value='0')
+        sentence = st.text_input('Enter the ITEM ID to get Similar Item Details or User Details on the basis of it:',value='0')
         
         number = int(sentence)   
         
-        if st.button('Recommend the closest Item IDs'):
+        if st.button('Recommend the closest Item Details'):
             payload = json.dumps({
                 "itemID" : number
                 })
@@ -76,7 +77,7 @@ if radio == 'LightFM Algorithm':
             #st.markdown(data_list)
             
             
-        if st.button('Recommend the closest User IDs'):
+        if st.button('Recommend the closest User Details'):
             payload = json.dumps({
                 "itemID" : number
                 })
@@ -93,15 +94,34 @@ if radio == 'LightFM Algorithm':
 
 if radio == 'LightGBM Algorithm':
     
-    title = st.number_input('User ID',min_value = 450000,max_value=900000,value = 450000,step =1)
     
+    #st.title('**_SNACKFAIR Welcomes you to their own Recommendation System!_**')
+    #image = Image.open('snacks.jpg')
+    #st.image(image, caption='',use_column_width=True)
+    st.title('_Recommendation on the basis of User ID_')
     
-    data = pd.read_csv('test_data.csv')
-    df1 =  data['id']==title
-    df2 = data[df1]
-    data = pd.DataFrame(df2)
-
-    st.dataframe(data)
+    title = st.number_input('Enter the USER ID to get Similar Item Details',min_value = 450000,max_value=900000,value = 450000,step =1)
+    
+    if st.button('Recommend the closest Item Details'):
+        data = pd.read_csv('test_data.csv')
+        df1 =  data['id']==title
+        df2 = data[df1]
+        data = pd.DataFrame(df2) 
+        st.dataframe(data['product_cat'])
+    
+    if st.button('Estimation of prospect buyer'):
+        data = pd.read_csv('test_data_new.csv')
+        df1 = data['id'] == title
+        df2 = data[df1]
+        
+        if(int(df2['Action']) == 1):
+            st.write('User will probably end up buying something!')
+        elif(int(df2['Action']) == 0):
+            st.write('Most probably user will not buy anything!')
+            
+        
+        
+    
             
     
     
