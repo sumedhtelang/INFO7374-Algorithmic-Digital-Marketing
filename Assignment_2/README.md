@@ -2,26 +2,31 @@
 
 Team 4: - 
 
-1. Samarth Hadawale   (NUID: - 001053811)
-2. Sumedh Telang      (NUID: - 001059338)
+1. Samarth Hadawale (NUID: - 001053811)
+2. Sumedh Telang    (NUID: - 001059338)
 
-Google Docs Link: - https://docs.google.com/document/d/1lw0eiZr7ngLhRB4B21w1XuM_nbVYEBpriHdDrSPOlYA/edit#heading=h.f8lt0cszlw9f 
+Google Docs Link: - https://docs.google.com/document/d/10okXVTaGggcXejwCrpnts3Xzpfb7Gs1uEKDnE4oGh2s/edit#
 
-
-Preview Codelab Link: - https://codelabs-preview.appspot.com/?file_id=1lw0eiZr7ngLhRB4B21w1XuM_nbVYEBpriHdDrSPOlYA#0
-
-About Dataset :
-- The YOOCHOOSE dataset contains a collection of sessions from a retailer, where each session is encapsulating the click events that the user performed in     the session.
-- There are also buy events; where the session ended with the user buying something from the web shop. 
-- The data was collected during 6 months in the year of 2014, reflecting the clicks and purchases performed by the users of an on-line retailer in Europe.  
-- To protect end users privacy, as well as the retailer,
-- All numbers have been modified for privacy reasons. 
+CLaaT Link: - https://codelabs-preview.appspot.com/?file_id=10okXVTaGggcXejwCrpnts3Xzpfb7Gs1uEKDnE4oGh2s#0
 
 
 Folder Information: -
-1. Einstein-Analytics - Contains dashboard of our analysis
-2. Pandas - Contains .ipynb files along with pandas visualizations 
-3. Snowflake - Contains screenshots of data staging and connection with einstein analytics
-4. Trifacta	- Contains data, reports, screenshots and json metadata files.
-5. data - Contains all the data files on which we generated dashboards.
-6. xsv - Contains screenshots of the commands performed on xsv command line toolkit.
+
+Method 1: - Contains the .ipynb file of 1st method in the assignment and the csv generated using that method.
+
+Method 2(FAISS Method): - Contains the .ipynb file of the implementaion of facebook AI similarity search method and the csv generated using the same method.
+
+Method 3(Spotify - Approximate Nearest Neighbors Oh Yeah): - Contains both the files to run the spotify annoy method which generates the nearest neighbor json file which can be loaded into elasticsearch using bulk API.
+
+Preprocessing: - Contains preprocessing file which is used to extract images to disk from bson.
+
+Streamlit: - Contains all the images used in both method 1 and 2 along with csv files and py file.
+
+finale: - Contains all the sampled images which are used for similarity searches.
+
+How to run the similarity searches: -
+Method 1: - Use the images from 'finale' folder and run the SimilaritySearchMethod1.ipynb file from 'Method 1' folder.
+
+Method 2 - FAISS: - Use the images from 'finale' folder and run the faissmethod.ipynb file from 'Method 2 - FAISS' folder(Perfferably run on Google Colab)
+
+Method 3 - Spotify: - First run the get_image_features_vectors.py and store the feature vector(.npz) files. After storing the features run the cluster_image_feature_vector.py which will create the similarity indexes and store in nearest_neighbors.json file. Populate the elasticsearch cluster using bulkAPI and run the flask app in 'elasticsearch folder' to display the nearest neighbor in web app. 
