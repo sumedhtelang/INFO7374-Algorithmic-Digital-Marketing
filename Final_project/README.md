@@ -23,3 +23,5 @@ Objectives :
 7.Building interactive dashboards to analyze the authors, publishers, ratings, reviews & books from different genres in order to get insights & run marketing campaigns (if needed)
 
 Clatt Link: - https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
+
+Web App Link: - http://3.236.121.69:5000/
