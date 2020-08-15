@@ -6,11 +6,13 @@ Team 4: -
 2. Sumedh Telang (NUID: - 001059338)
 
 Introduction :
+
 Goodreads is a website that was founded in December 2006 & allows individuals to search freely its database of books, annotations, quotes, and reviews.This amazon owned company also given an option to buy books through the various sites/stores such as Amazon, Walmart stores, etc. In the last month of 2019 Goodreads announced on their website that their user base had grown more than 90 Million users. 
 With such a huge amount of data goodreads are willing to improve their marketing strategies which will help them retain the existing customers, categorizing them & will eventually increase their interaction with the users & revenue through the service. 
 Also they are building a Recommendation system for users & predictive analytics bundling system for Marketing teams to improve on their respective ends. 
 
 Objectives : 
+
 1. Calculating the Customer Lifetime Value (CLV) of customers & classifying them into 4 different categories on the basis of their value.
 2. RFM Analysis & segmentation of customers to analyze the best customers, almost lost customers, etc. 
 3. Cohort analysis to analyze the user retention on the basis of their history. 
