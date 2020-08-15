@@ -29,6 +29,17 @@ Also they are building a Recommendation system for users & predictive analytics 
 
 https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
 
+
 # Web App Link: 
 
 http://3.236.121.69:5000/
+
+# Tableau Public Links : 
+
+1. Customer Lifetime Value Dashboard :  https://public.tableau.com/profile/samarth.hadawale#!/vizhome/CLVFinal/Dashboard1
+
+2. RFM Analysis Dashboard : https://public.tableau.com/profile/samarth.hadawale#!/vizhome/RFMFinal_15972916322930/Sheet1
+
+3. Predicting Sales Dashboard : https://public.tableau.com/profile/samarth.hadawale#!/vizhome/PredictingSalesFinal/Sales
+
+4. Goodreads analytics & marketing Dashboard : https://public.tableau.com/profile/samarth.hadawale#!/vizhome/GoodReadsAnalysisFinal/Dashboard1
