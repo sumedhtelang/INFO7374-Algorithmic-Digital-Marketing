@@ -21,6 +21,7 @@ Objectives :
 6. Predictive analysis for bundling the books on the basis of their similarity & helping Marketing teams, business leaders with that data so that they can strategize the promotional campaigns
 
 7.Building interactive dashboards to analyze the authors, publishers, ratings, reviews & books from different genres in order to get insights & run marketing campaigns (if needed)
+![alt text](https://github.com/sumedhtelang/INFO7374-Algorithmic-Digital-Marketing/blob/master/Final_project/ProjectArchiFinale12.png)
 
 Clatt Link: - https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
 
