@@ -25,6 +25,10 @@ Also they are building a Recommendation system for users & predictive analytics 
 
 ![alt text](https://github.com/sumedhtelang/INFO7374-Algorithmic-Digital-Marketing/blob/master/Final_project/ProjectArchiFinale12.png)
 
-# Clatt Link: - https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
+# Clatt Link: 
 
-# Web App Link: - http://3.236.121.69:5000/
+https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
+
+# Web App Link: 
+
+http://3.236.121.69:5000/
