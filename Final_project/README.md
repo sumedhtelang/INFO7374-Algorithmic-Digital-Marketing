@@ -18,7 +18,7 @@ Objectives :
 3. Cohort analysis to analyze the user retention on the basis of their history. 
 4. Predicting sales in the near future which will help the company strategize the marketing campaigns as well as offers to the users. 
 5. Building recommendation system for the users which will recommend the similar books on the basis of book title they have entered
-6. Predictive analysis for bundling the books on the basis of their similarity & helping Marketing teams, business leaders with that data so that they can strategize the promotional campaigns. 
+6. Predictive analysis for bundling the books on the basis of their similarity & helping Marketing teams, business leaders with that data so that they can strategize the promotional campaigns
 7.Building interactive dashboards to analyze the authors, publishers, ratings, reviews & books from different genres in order to get insights & run marketing campaigns (if needed)
 
 Clatt Link: - https://codelabs-preview.appspot.com/?file_id=1Cx_2MrN6VttjhevsgGjgHKxqOYOrbJ0dc-RfntL2lxg#12
